@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.text-white{
+    color:rgba(255, 255,255 , 1) !important;
+}
+
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 1.25rem 2.5rem;
+    border-radius: 4px;
+    margin-top:50px;
+    cursor: pointer;
+}
+
+.blue-background{
+    background-color: rgba(29, 128, 159, 1);
+}
+
+.section{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.icon-box{
+    border-radius: 100%;
+}
+
+.main{
+    overflow: hidden;
+}
+
+.cover{
+    background-size: cover;
+}
+
+.first-section{
+    background-image: url(url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBlbiUyMGFuZCUyMHBhcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80));
+}
+
+.cover-content{
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover-content h1{
+    font-size: 5.5rem;
+}
+
+.cover-content h3{
+    font-size: 1.75rem;
+}
+
+.cover-content a{
+    color: white;
+}
+
+.offer h2{
+    font-size: 2rem;
+    margin:10px;
+}
+
+.offer p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.offer-content .btn{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.services-content-header  h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:rgba(236, 184, 7, 1) !important;
+}
+
+.services-content-header h2{
+    font-size: 3rem;
+}
+
+.services-content-box{
+    width: 250px;
+    margin-top: 40px;
+}
+
+.services-icon{
+    width: 120px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.services-icon svg{
+    vertical-align: middle;
+    height:120px;
+    width: 60px;
+    color: rgb(29, 128, 159);
+}
+
+.services-content-box h4{
+    font-size: 1.5rem;
+}
+
+.download{
+    background-image: url(bg-callout.jpg);
+    height: 90vh;
+}
+
+.download h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    max-width: 30rem;
+}
+
+.projects{
+    height: 100%;
+}
+
+.projects .content-body{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 400px 400px;
+    justify-content: center;
+    padding-bottom: 5rem;
+    margin-top: 40px;
+}
+
+.projects .content-body .project-box{
+    position: relative;
+}
+
+.projects .content-body .overlay{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    text-align: left;
+    background-color:rgba(33, 37, 41, 0.2);
+    clip-path: inset(0px);
+    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+    z-index: 1;
+
+}
+
+.overlay .overlay-alignment{
+    position: relative;
+    bottom: 0;
+    width: 600px;
+    height: 290px;
+}
+
+.overlay .overlay-text{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    line-height: 1.5rem;
+}
+
+.overlay-text h2{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.overlay-text p{
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.projects .content-body .project-box img{
+    width: 600px;
+    height: 400px;
+    z-index: 0;
+    clip-path: inset(0px);
+    transition: 1s all;
+}
+
+.projects .project-box:hover .overlay,.projects .project-box:hover img{
+    clip-path: inset(2rem);
+}
+
+.projects .project-box:hover .overlay{
+    background-color: rgba(29, 128, 159, 0.9);
+}
+
+.button-content > a{
+    margin: 1rem;
+}
+
+.button-content a:first-child{
+    background-color: white;
+    color: #212529;
+}
+
+.button-content a:nth-child(2){
+    background-color: #212529;
+    color: white;
+}
+
+.map{
+    background-image: url(Screenshot\ 2022-09-24\ 181519.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+.footer{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.footer-icon{
+    margin: 0.3rem;
+    width: 60px;
+    transition: 0.3s all;
+}
+
+.footer-icon svg{
+    vertical-align: middle;
+    height:60px;
+    width: 30px;
+}
+
+.footer-content{
+    margin-top: 2rem;
+}
+
+.footer-icon:hover,a.blue-background:hover{
+    background-color: #155d74;
+}
