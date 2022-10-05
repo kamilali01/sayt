@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+.basliq1{
+    position: relative;
+    text-align: center;
+    top: 10vh;
+    color: rgb(230, 167, 86);
+    font-size: 30px;
+}
+.basliq2{
+    position: relative;
+    text-align: center;
+    top: 15vh;
+    color: #f6e1c5;
+    font-size: 5rem;
+    font-weight: 1px;
+    line-height: 64px;
+}
+.menu-nav{
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    background-color: rgba(47, 23, 15, 0.9);
+    margin-top: 25vh;
+}
+.li{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 40px;
+}
+.menu-element{
+    color: white;
+    text-decoration: none;
+}
+.menu-element:hover{
+    opacity: 0.6;
+}
+.ul{
+    text-align: center;
+    padding: 30px;
+}
+.section{
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(230, 167, 86, 0.9);
+    margin-top: 10vh;
+}
+
+.div1{
+    position: relative;
+    top: 12vh;
+    left: 300px;
+    width: 60%;
+    height: 100vh;
+    border: 5px solid  rgba(230, 167, 86, 0.9);
+    border-radius: 0.25rem;
+}
+.div2{
+    position: relative;
+    top: 0.5vh;
+    left: 0.5%;
+    width: 99%;
+    height: 99vh;
+    background-color: #f6e1c5;
+    border-radius: 0.25rem;
+}
+.text1{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.text2{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+}
+.cedvel{
+    position: relative;
+    top: 50px;
+    left: 220px;
+    width: 50%;
+    height: 55vh;
+    background-color: #f6e1c5 ;
+}
+.cedvel-setir{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+}
+.cedvel-element-sol{
+    position: relative;
+    top: 20px;
+    display: block;
+    font-size: 23px;
+}
+.cedvel-element-sag{
+    position: relative;
+    bottom: 5px;
+    display: block;
+    font-size: 23px;
+    text-align: right;
+}
+.story-text1{
+    display: block;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.story-text2{
+    display: block;
+    position: relative;
+    top: 65px;
+    text-align: center;
+}
+.story-text3{
+    display: block;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.story-text4{
+    display: block;
+    position: relative;
+    top: 107px;
+    text-align: center;
+}
